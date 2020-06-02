@@ -5,7 +5,7 @@
 # So ... largest factor of a number is around half of that number.
 # Time is of essence in this problem, for very large numbers brute 
 # force methods work fine, but take too long to compute. So, to mitigate 
-# this if we start to divide the given number with 2,3,4… then we can run
+# this if we start dividing the given number with 2,3,4… then we can run
 # a test on each of those results for them being prime numbers, the first 
 # one to clear the isprime function gets to be the largest prime number 
 # which is a factor of the given number.
