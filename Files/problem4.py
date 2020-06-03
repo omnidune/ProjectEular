@@ -19,12 +19,16 @@ def ispal(num):
 		return False
 	
 
-def largestpal():
-	for i in range(999, 1, -1):
-		for j in range(i, 1, -1):
-			if ispal(i*j):
-				print(i*j, '=', i, '*', j)
-				return 
+def largestpal(num):
+	high = int((10**num)-1)
+	low = int((10**(num-1))-1)
+	lis = []
+	for i in range(high, low, -1):
+		for j in range(i, low, -1):
+			p = i*j
+			if ispal(p):
+				lis.append(p)
+	lis.sort(reverse=True)
+	return lis[0]
 
-
-print(largestpal())
+print(largestpal(3))
