@@ -20,7 +20,7 @@ import math
 
 def isprime(n):
 	m = 2
-	while m<math.sqrt(n):
+	while m<=math.sqrt(n):
 		if n%m>0 and m == 2:
 			m+=1
 			continue
