@@ -70,7 +70,7 @@ def adjpro(n):
 	
 	return multilis[0]
 
-print(adjpro(69))
+print(adjpro(13))
 
 
 # a small personal discovery : 
