@@ -2,9 +2,9 @@
 # What is the largest prime factor of the number 600851475143 ?
 
 #################################################
-# So ... given any number e.g 12 has a set of factors 1*12, 2*6, 3*4, 4*3, 6*2 and 12*1.
-# For 64, it's 1*64 .... 8*8 .... 64*1
-# This has a pattern, 1*number …. sqrt(num)*sqrt(num) …. num*1. 
+# Given any number e.g 12 has a set of factors 1*12, 2*6, 3*4, 4*3, 6*2 and 12*1.
+# For 64, it's 1*64 ... 8*8 ... 64*1
+# This has a pattern, 1*number ... sqrt(num)*sqrt(num) ... num*1. 
 # So in order to determine the primal nature of a number we need to 
 # test divisibility up to sqrt(num) only. As set of dividers repeats itself 
 # for a non-prime number. 
